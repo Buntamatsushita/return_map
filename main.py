@@ -11,9 +11,9 @@ def main():
     xn = []
     xn_1 = []
 
-    times = st.number_input('How many times do you want to loop?', min_value=1, max_value=25)
-    a = st.number_input('Enter a number', min_value=0.01, max_value=5.00)
-    x0 = st.number_input('Enter x0', min_value=0.01, max_value=5.00)
+    times = st.number_input('How many times do you want to loop?', min_value=1, max_value=1000)
+    a = st.number_input('Enter a number', min_value=0.01, max_value=10.00)
+    x0 = st.number_input('Enter x0', min_value=0.01, max_value=10.00)
     
     if st.button('Calculate'):
         for i in range(times):
