@@ -14,7 +14,7 @@ def main():
     st.title('Logistic Map')
     st.write('x_n+1 = a * x_n * (1 - x_n)')
 
-    times = st.number_input('計算回数を入力してください？?', min_value=1, max_value=1000)
+    times = st.number_input('計算回数を入力してください？', min_value=1, max_value=1000)
     a = st.number_input('定数aの値を入力してください', min_value=0.01, max_value=10.00)
     x0 = st.number_input('初期値x0の値を入力してください', min_value=0.01, max_value=10.00)
 
